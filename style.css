@@ -1,0 +1,150 @@
+header {
+    background-color:black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+body {
+    margin: 0;
+    font: "calibri";
+}
+ul {
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+}
+h1 {
+    color: #e6010d;
+    flex-grow: 1;
+    font-size: 40px; 
+    margin: 0;
+}
+li {
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 25px;
+}
+li:last-child {
+    margin-right: 8px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a.active,
+a:hover {
+    color: #e6010d;
+}
+.banner-img-wrapper
+{
+    width: 50%;
+}
+.banner-img-wrapper img {
+    width: 100%;
+}
+.banner {
+    margin: 0px;
+    display: flex;
+    color: #e6010d;
+    background-color:#efd9e3;
+    text-align: center;
+}
+.banner>div {
+    width: 50%;
+}
+.banner img { 
+    width: 100%;
+}
+.banner-text {
+    display: flex;
+    text-align: center;
+}
+.banner-text>div {
+    width: 100%;
+    text-align: center;
+}
+.banner-text h2  {
+    margin-block-start: 210px;
+    font-size: 38px;
+}
+.banner-text button {
+    font-size: 25px;
+    padding: 8px 15px;
+    color: white;
+    background-color: #e6010d;
+    border:1px solid  #e6010d;
+    border-radius: 20px;
+}
+.banner-text button a:hover {
+    color: #0c0a0a;
+}
+section {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.section-header {
+    text-align: center;
+    
+}
+.section-header h2 {
+    font-size: 40px;
+    color: #090708;
+    padding: 20px;
+    font-weight: 400;
+}
+.section-header hr {
+    border: 0;
+    border-bottom: 4px solid #e6010d;
+    width: 10%;
+}
+.row {
+    display: flex;
+}
+.col-25 {
+    width: 25%;
+}
+figure.col-25 img {
+    width: 100%;
+    height: 500px;
+}
+.row-2 {
+    display: flex;
+}
+.col-33 {
+    width: 33.3%;
+}
+figure.col-33 img {
+    width: 100%;
+    height: 500px;
+}
+figcaption {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.banner-text hr {
+    border: 0;
+    border-bottom: 4px solid #e6010d;
+    width: 10%;
+}
+.title h1{
+    text-align: center;
+    padding: 20px;
+    color: black;
+    font-weight: 400;
+}
+.title hr {
+    border: 0;
+    border-bottom: 4px solid #e6010d;
+    width: 10%;
+} 
+.title h2 {
+    font-size: 30px;
+    color: #e6010d;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+}
+
