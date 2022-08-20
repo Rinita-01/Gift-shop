@@ -1,5 +1,5 @@
 header {
-    background-color: black;
+    background-color: rgb(246, 241, 241);
     display: flex;
     align-items: center;
     padding: 10px;
@@ -14,12 +14,12 @@ body {
 ul {
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(245, 242, 242);
     display: flex;
 }
 
 h1 {
-    color: #e6010d;
+    color:#e86f90;
     flex-grow: 1;
     font-size: 40px;
     margin: 0;
@@ -36,13 +36,13 @@ li:last-child {
 }
 
 a {
-    color: white;
+    color:#e86f90;
     text-decoration: none;
 }
 
 a.active,
 a:hover {
-    color: #e6010d;
+    color:#5d041c;
 }
 
 .banner-img-wrapper {
@@ -56,8 +56,8 @@ a:hover {
 .banner {
     margin: 0px;
     display: flex;
-    color: #e6010d;
-    background-color: #efd9e3;
+    color:#e86f90;
+    background-color:#fcbcbc;
     text-align: center;
 }
 
@@ -88,13 +88,13 @@ a:hover {
     font-size: 25px;
     padding: 8px 15px;
     color: white;
-    background-color: #e6010d;
-    border: 1px solid #e6010d;
+    background-color: #cf466b;
+    border: 1px solid #cf466b;
     border-radius: 100px;
 }
 
 .banner-text .banner-btn:hover {
-    background-color: #ff2a34;
+    background-color: #e86f90;
 }
 
 section {
@@ -111,11 +111,12 @@ section {
     color: #090708;
     padding: 20px;
     font-weight: 400;
+    margin: 0;
 }
 
 .section-header hr {
     border: 0;
-    border-bottom: 4px solid #e6010d;
+    border-bottom: 4px solid #e86f90;
     width: 10%;
 }
 
@@ -176,15 +177,11 @@ figure .img-wrapper {
     overflow: hidden;
 }
 
-figcaption {
-    font-size: 30px;
-    color: black;
-    text-align: center;
-}
+
 
 .banner-text hr {
     border: 0;
-    border-bottom: 4px solid #e6010d;
+    border-bottom: 4px solid #e86f90;
     width: 10%;
 }
 
@@ -197,14 +194,41 @@ figcaption {
 
 .title hr {
     border: 0;
-    border-bottom: 4px solid #e6010d;
+    border-bottom: 4px solid #e86f90;
     width: 10%;
 }
 
 .title h2 {
     font-size: 30px;
-    color: #e6010d;
+    color:#e86f90;
     font-weight: 500;
     text-align: center;
     padding: 20px;
 }
+figcaption {
+    font-size: 32px;
+    text-align: center;
+}
+.text-strikethrough {
+    text-decoration: line-through;
+    color: #a19297;
+}
+.text-primary {
+    color: #e86f90;
+}
+.text {
+    color: #e86f90;
+}
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background:#e86f90;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .search-container button:hover {
+    background: #e86f90;
+  }
