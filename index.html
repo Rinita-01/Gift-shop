@@ -12,22 +12,43 @@
 <body>
     <header>
         <h1>Shoppable</h1>
-        <nav>
+        <nav class="header-item">
             <ul>
+             
                 <li><a href="item.html">Women</a></li>
                 <li><a href="item.html">Men</a></li>
                 <li><a href="item.html">Kids</a></li>
                 <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <div class="search-container">
-                    <form action="/action_page.php">
-                      <input type="text" placeholder="Search.." name="search">
-                      <button type="submit"><i class="fa fa search"></i></button>
-                    </form>
-                </div>
-                
-            </ul>
+             
+            </ul> 
+        </nav>
+        <nav>
+            <ul>
+            <div class="search-item">
+                <form class="d-none d-lg-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+            <li class="nav-item">
+                <a class="nav-link nav-icon" href="#">
+                    <i class="bi bi-person"></i>
+                    <span class="small">Profile</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-icon" href="#">
+                    <i class="bi bi-heart"></i>
+                    <span class="small">Wishlist</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-icon" href="#">
+                    <i class="bi bi-bag"></i>
+                    <span class="small">Bag</span>
+                </a>
+            </li>
+        </ul>
         </nav>
     </header>
     <section class="banner">
